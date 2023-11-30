@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<style>
+		body{
+			background-image: url("b4.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			
+		}
+	</style>
+	<center>
+		<h1 style="color: yellow;"> SDFC BANK</h1><p></p>
+		<p></p>
+		<h2 style="color: pink;">EXTRAORDINARY SERVICE</h2>
+		
+		<style>
+			.navbar{
+				background-color:floralwhite;
+				overflow: hidden;
+			}
+			.navbar a{
+				float: left;
+				display: block;
+				color: burlywood;
+				text-align: center;
+				padding: 20px 26px;
+				text-decoration: none;
+				}
+				.navbar a:hover{
+					background-color: darkgoldenrod;
+					
+				}
+		</style>
+		<div class="navbar"></div>
+			<a href="home.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="newaccount.html">New Account</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="balance.html">Balance</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="deposit.html">Deposit</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="withdraw.html">Withdraw</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="transfer.html">Transfer</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="close.html">Close A/C</a>&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="about.html">AboutUs</a>&nbsp;&nbsp;&nbsp;&nbsp;
+		</div>
+		
+	</center>
+<fieldset style="position: absolute;">
+<h1 style="color: palegreen;"> OPEN ACCOUNT FORM</h1>
+<form action="Register" method="post">
+	Account Number:<input type="number" name="ac"><p></p>
+		Name:<input type="text" name="n"><p></p>
+		Password:<input type="password" name="psw"><p></p>
+		Confirm_Password:<input type="password" name="cpsw"><p></p>
+			Amount:<input type="number" name="a"><p></p>
+			Address	:<input type="text" name="ad"><p></p>
+			Mobile Number:<input type="number" name="num"><p></p>
+			<input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<input type="reset" value="clear">
+
+ </fieldset>
+</body>
+</html>
